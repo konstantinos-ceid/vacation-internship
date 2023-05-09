@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @Log4j2
+@CrossOrigin
 @RequestMapping("/api")
 public class CompanyController {
     private final CompanyService companyService;
